@@ -9,7 +9,7 @@ class Subject:
         self.__lesson = slesson
 
     def __str__(self):
-        return f'Subject[id={self.__id}, name={self.__name},' \
+        return f'Subject[id={self.__id}, name={self.__name}, ' \
                f'credit={self.__credit}, lesson={self.__lesson}]'
 
 
