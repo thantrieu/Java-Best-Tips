@@ -21,11 +21,12 @@ public class EndDate {
 
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);
-        System.out.println("Ngày bắt đầu: ");
+        System.out.print("Ngày bắt đầu: ");
         String startDateStr = scanner.nextLine();
-        System.out.println("Số tuần học: ");
+        System.out.print("Số tuần học: ");
         int duration  = scanner.nextInt();
-
+        
+        System.out.println("=============================");
         System.out.println("Ngày bắt đầu: " + startDateStr);
         System.out.println("Ngày kết thúc: " + findEndDate(startDateStr, duration));
     }
